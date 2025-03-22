@@ -27,7 +27,7 @@ Una aplicación web moderna para generar números de lotería optimizados utiliz
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/lottery.git
+git clone https://github.com/henamulu/lottery.git
 
 # Instalar dependencias
 npm install

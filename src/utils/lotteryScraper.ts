@@ -1,13 +1,13 @@
 import axios from 'axios';
-import * as cheerio from 'cheerio';
-import { LotteryDraw } from '../utils/types';
+import cheerio from 'cheerio';
+import { LotteryDraw } from './types';
 
 const LOTTERY_URLS = {
-  primitiva: 'https://www.loteriasyapuestas.es/es/resultados/la-primitiva/',
-  bonoloto: 'https://www.loteriasyapuestas.es/es/resultados/bonoloto/',
-  euromillones: 'https://www.loteriasyapuestas.es/es/resultados/euromillones/',
-  gordo: 'https://www.loteriasyapuestas.es/es/resultados/gordo-primitiva/',
-  eurodreams: 'https://www.loteriasyapuestas.es/es/resultados/eurodreams/'
+  primitiva: 'https://www.loteriasyapuestas.es/es/la-primitiva/resultados',
+  bonoloto: 'https://www.loteriasyapuestas.es/es/bonoloto/resultados',
+  euromillones: 'https://www.loteriasyapuestas.es/es/euromillones/resultados',
+  gordo: 'https://www.loteriasyapuestas.es/es/gordo-primitiva/resultados',
+  eurodreams: 'https://www.loteriasyapuestas.es/es/eurodreams/resultados'
 };
 
 async function scrapeWebPage(url: string): Promise<string> {

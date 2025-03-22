@@ -1,62 +1,56 @@
-# Generador de Números de Lotería Española
+# Generador de Lotería con Análisis Estadístico
 
-Esta aplicación web permite generar números aleatorios para diferentes loterías españolas, incluyendo:
-
-- La Primitiva
-- Bonoloto
-- Euromillones
-- El Gordo
-- El Niño
+Una aplicación web moderna para generar números de lotería optimizados utilizando análisis estadístico y patrones históricos.
 
 ## Características
 
-- Interfaz moderna y fácil de usar
-- Soporte para múltiples tipos de lotería
-- Generación de números principales y estrellas (para Euromillones)
-- Diseño responsive
-- Implementado con Next.js y TypeScript
+- Generación de números para múltiples loterías:
+  - La Primitiva
+  - Bonoloto
+  - Euromillones
+  - El Gordo
+  - Euro Dreams
+- Análisis estadístico en tiempo real
+- Patrones históricos
+- Interfaz moderna y responsiva
+- Web scraping de datos reales
 
-## Requisitos
+## Tecnologías
 
-- Node.js 18.0 o superior
-- npm o yarn
+- Next.js 15
+- TypeScript
+- Tailwind CSS
+- Axios
+- Cheerio
 
 ## Instalación
 
-1. Clona el repositorio:
 ```bash
-git clone [URL_DEL_REPOSITORIO]
-```
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/lottery.git
 
-2. Instala las dependencias:
-```bash
+# Instalar dependencias
 npm install
-# o
-yarn install
-```
 
-3. Inicia el servidor de desarrollo:
-```bash
+# Iniciar el servidor de desarrollo
 npm run dev
-# o
-yarn dev
 ```
 
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+## Despliegue
+
+La aplicación está optimizada para ser desplegada en Vercel:
+
+1. Crea una cuenta en [Vercel](https://vercel.com)
+2. Importa tu repositorio
+3. Vercel detectará automáticamente que es un proyecto Next.js
+4. Haz clic en "Deploy"
 
 ## Uso
 
-1. Selecciona el tipo de lotería del menú desplegable
+1. Selecciona el tipo de lotería
 2. Haz clic en "Generar Números"
-3. Los números generados se mostrarán en la pantalla
-4. Para Euromillones, también se generarán las estrellas
-
-## Tecnologías Utilizadas
-
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- React
+3. Visualiza el análisis estadístico
+4. ¡Buena suerte!
 
 ## Licencia
 
